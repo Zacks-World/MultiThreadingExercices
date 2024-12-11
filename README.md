@@ -22,6 +22,7 @@ Create a multithreaded application to illustrate how multiple threads execute co
    - Start all threads using the `start()` method.
 
 ### **Code**
+   *Talkative Class*
 ```java
 public class Talkative implements Runnable {
     private int Param;
@@ -39,7 +40,9 @@ public class Talkative implements Runnable {
         }
     }
 }
-
+```
+*Main Class*
+```java
 public class Main {
     public static void main(String[] args) {
         Thread th1 = new Thread(new Talkative(1, "thread1"));
@@ -90,6 +93,7 @@ Develop a program to compute the sum of an array using multiple threads to proce
    - Use `join()` to ensure all threads complete before displaying the final sum.
 
 ### **Code**
+*Sommeur Class*
 ```java
 public class Sommeur implements Runnable {
     int[] Tab;
@@ -114,7 +118,9 @@ public class Sommeur implements Runnable {
         return Somme;
     }
 }
-
+```
+*Main Class*
+```java
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         int[] Tab = {1, 35, 89, 100, 55, 89, 35, 99, 47, 29, 64, 774, 1000};
