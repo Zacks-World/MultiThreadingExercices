@@ -4,6 +4,20 @@ This document provides an overview of two exercises focused on multithreading in
 
 ---
 
+## **Table of Contents**
+1. [Exercise 1: Talkative Threads](#exercise-1-talkative-threads)
+   - [Objective](#objective)
+   - [Steps](#steps)
+   - [Code](#code)
+   - [Observation](#observation)
+2. [Exercise 2: Parallel Array Summation](#exercise-2-parallel-array-summation)
+   - [Objective](#objective-1)
+   - [Steps](#steps-1)
+   - [Code](#code-1)
+   - [Output](#output)
+3. [Notes](#notes)
+---
+
 ## **Exercise 1: Talkative Threads**
 
 ### **Objective**
